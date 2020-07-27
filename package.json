@@ -1,0 +1,19 @@
+{
+  "name": "genmath",
+  "version": "1.1.1",
+  "description": "a package that deals with all your math needs. Letting you focus on the code while we take cre of the math.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micaelillos/genMath.git"
+  },
+  "author": "micael illos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micaelillos/genMath/issues"
+  },
+  "homepage": "https://github.com/micaelillos/genMath#readme"
+}

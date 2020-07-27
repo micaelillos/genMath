@@ -1,18 +1,25 @@
 # What is this ?
-have all your math commands in one simple function to have neat code.
+Genmath is a next generation math libary that lets you have all your math commands in one simple package letting you focuse on the code while we focus on the math.
 
 # Install
 
-`npm i genMath --save`
+`npm i genmath --save`
 
 # Usage 
 
-import {genMath} from 'genMath'
+## Nodejs
+`const genmath = require('genmath)`
 
-console.log(genMath({
-    a:'5',
-    b:'7',
-    sign:'-'
-}))
+## Frontend
+`import {simple,factiorial} from 'genMath'`
 
-options : a,b are integers and sign is the arithmetic option
+## Function List
+ ~ simple  //  does simple arithmetic (+,-,/,*)
+ ~ factorial  // gets exact factorial
+
+### Example
+`console.log(genmath.simple({ a:'5',b:'7',sign:'*'}))`
+  a,b are numbers and sign is the arithmetic option.
+
+`console.log(genmath.factorial(0.44))`
+calculates 0.44! by Lanczos Approximation of the Gamma Function
