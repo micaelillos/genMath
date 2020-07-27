@@ -37,5 +37,6 @@ function factorial(op) {
     return (100 * partialValue) / totalValue;
  } 
 
-module.exports.simple
-module.exports.factorial
+module.exports.simple = simple
+module.exports.factorial = factorial
+module.exports.percentage = percentage
